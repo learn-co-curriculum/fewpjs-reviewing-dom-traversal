@@ -17,11 +17,11 @@ Use the following markup to answer the questions below.
 </body>
 ```
 
-Q: What does doc.querySelector("li.herbivore-link") return?
-A: The first list item with the `herbivore-link` class.
+Q: What does `document.querySelector("li.herbivore-link")` return?
+A: The first node with the `herbivore-link` class.
 
-Q: What does doc.querySelectorAll("li.herbivore-link") return?
-A: All of the list items with the `herbivore-link` class.
+Q: What does `document.querySelectorAll("li.herbivore-link")` return?
+A: All of the nodes with the `herbivore-link` class.
 
 Q: What structure does the DOM representation represent?
 A: A tree.
