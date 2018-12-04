@@ -1,16 +1,27 @@
-# Title
+# Reviewing the DOM Traversal
 
-## Learning Goals
+Use the following markup to answer the questions below.
 
--SWBAT 1
--SWBAT 2
+```html
+<body>
+  <section>
+    <h1>Best Dinosaurs</h1>
+    <ol>
+      <li class="carnivore-link"><a href="http://dinosaurpictures.org/Velociraptor-pictures">Velociraptor</a></li>
+      <li class="carnivore-link"><a href="http://dinosaurpictures.org/Tyrannosaurus-pictures">Tyrannosaurus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Diplodocus-pictures">Diplodocus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Apatosaurus-pictures">Apatosaurus</a></li>
+      <li class="herbivore-link"><a href="http://dinosaurpictures.org/Triceratops-pictures">Triceratops</a></li>
+    </ul>
+  </section>
+</body>
+```
 
-## Introduction
+Q: What does doc.querySelector("li.herbivore-link") return?
+A: The first list item with the `herbivore-link` class.
 
-## SWBAT 1
+Q: What does doc.querySelectorAll("li.herbivore-link") return?
+A: All of the list items with the `herbivore-link` class.
 
-## SWBAT 2
-
-## Conclusion
-
-## Resources
+Q: What structure does the DOM representation represent?
+A: A tree.
